@@ -1,0 +1,9 @@
+torch>=2.0
+torchvision>=0.15
+optuna>=3.4
+wandb>=0.16
+ultralytics>=8.1
+huggingface_hub>=0.20
+opencv-python>=4.8
+numpy
+pillow

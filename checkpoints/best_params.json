@@ -1,0 +1,22 @@
+{
+  "value": 0.6915757066890568,
+  "params": {
+    "n_stages": 3,
+    "stem_channels": 16,
+    "w0": 32,
+    "wmult": 1.906602462224149,
+    "depth_0": 2,
+    "depth_1": 3,
+    "depth_2": 2,
+    "group_width": 16,
+    "bot_mul": 1.0,
+    "lr": 0.002961284736258771,
+    "weight_decay": 2.7203042310527935e-05,
+    "optimizer": "adamw"
+  },
+  "widths": [
+    32,
+    64,
+    120
+  ]
+}
