@@ -1,22 +1,24 @@
 {
-  "value": 0.6915757066890568,
+  "value": 0.7204030226700252,
   "params": {
-    "n_stages": 3,
-    "stem_channels": 16,
+    "n_stages": 4,
+    "stem_channels": 24,
     "w0": 32,
-    "wmult": 1.906602462224149,
-    "depth_0": 2,
-    "depth_1": 3,
-    "depth_2": 2,
-    "group_width": 16,
+    "wmult": 1.6100809687950626,
+    "depth_0": 3,
+    "depth_1": 2,
+    "depth_2": 3,
+    "depth_3": 2,
+    "group_width": 8,
     "bot_mul": 1.0,
-    "lr": 0.002961284736258771,
-    "weight_decay": 2.7203042310527935e-05,
+    "lr": 0.004862271663399707,
+    "weight_decay": 0.0005113722250729608,
     "optimizer": "adamw"
   },
   "widths": [
     32,
-    64,
-    120
+    48,
+    80,
+    136
   ]
 }

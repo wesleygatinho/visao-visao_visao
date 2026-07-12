@@ -68,7 +68,7 @@ def build_objective(args):
             acc = train_model(model, train_loader, val_loader, class_weights,
                               epochs=args.epochs, lr=lr, weight_decay=weight_decay,
                               optimizer_name=optimizer_name, wandb_run=wandb_run,
-                              trial=trial)
+                              trial=trial, patience=4)
         finally:
             if wandb_run:
                 wandb_run.finish()
